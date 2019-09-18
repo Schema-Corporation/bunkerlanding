@@ -229,7 +229,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .btn-rm {
-  color: #1EA563;
+  color: rgb(30, 156, 165);
   padding: 10px 0;
   text-transform: capitalize;
   font-size: 16px;
@@ -518,8 +518,8 @@ button:focus {
 }
 
 .menu-bg {
-  background: -webkit-linear-gradient(left, #1EA563 0%, #4CB781 100%) !important;
-  background: linear-gradient(to right, #1EA563 0%, #4CB781 100%) !important;
+  background: -webkit-linear-gradient(left, rgb(30, 156, 165) 0%, #7D55C7 100%) !important;
+  background: linear-gradient(to right, rgb(30, 156, 165) 0%, #7D55C7 100%) !important;
   box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.1);
   z-index: 9999;
   padding: 5px;
@@ -616,7 +616,7 @@ button:focus {
    Hero Area
    ========================================================================== */
 .hero-area {
-  background: #1EA563;
+  background: rgb(30, 156, 165);
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -629,9 +629,9 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background-image: -moz-linear-gradient(0deg, #1EA563 0%, #4CB781 100%);
-  background-image: -webkit-linear-gradient(0deg, #1EA563 0%, #4CB781 100%);
-  background-image: -ms-linear-gradient(0deg, #1EA563 0%, #4CB781 100%);
+  background-image: -moz-linear-gradient(0deg, rgb(30, 156, 165) 0%, #7D55C7 100%);
+  background-image: -webkit-linear-gradient(0deg, rgb(30, 156, 165) 0%, #7D55C7 100%);
+  background-image: -ms-linear-gradient(0deg, rgb(30, 156, 165) 0%, #7D55C7 100%);
 }
 
 .hero-area .contents {
@@ -688,9 +688,9 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background-image: -moz-linear-gradient(0deg, #1EA563 0%, #4CB781 100%);
-  background-image: -webkit-linear-gradient(0deg, #1EA563 0%, #4CB781 100%);
-  background-image: -ms-linear-gradient(0deg, #1EA563 0%, #4CB781 100%);
+  background-image: -moz-linear-gradient(0deg, rgb(30, 156, 165) 0%, #7D55C7 100%);
+  background-image: -webkit-linear-gradient(0deg, rgb(30, 156, 165) 0%, #7D55C7 100%);
+  background-image: -ms-linear-gradient(0deg, rgb(30, 156, 165) 0%, #7D55C7 100%);
 }
 
 .hero-area-2 .contents {
@@ -2150,7 +2150,7 @@ footer .footer-Content {
   background-image: -webkit-linear-gradient(0deg, #1EA563 0%, #4CB781 100%);
   background-image: -ms-linear-gradient(0deg, #1EA563 0%, #4CB781 100%);
   padding: 60px 0 0px;
-  color: #546E7A;
+  color: rgb(30, 156, 165);
 }
 
 footer .footer-Content h2 {
