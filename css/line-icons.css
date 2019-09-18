@@ -522,6 +522,9 @@
 .lni-leaf:before {
   content: "\e9a5";
 }
+.lni-popup:before {
+  content: "\E909";
+}
 .lni-licencse:before {
   content: "\e9a6";
 }

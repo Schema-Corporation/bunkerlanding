@@ -119,6 +119,14 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   position: relative;
 }
 
+
+.section-lessor {
+  background-color: #7D55C7;
+  margin-bottom: 50px;
+  text-align: center;
+  position: relative;
+}
+
 .section-header .section-title {
   font-size: 30px;
   margin-bottom: 20px;
@@ -129,9 +137,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   background-clip: text;
   text-fill-color: transparent;
   background-color: #4CB781;
-  background-image: -webkit-linear-gradient(bottom right, #1EA563, #4CB781);
-  background-image: -o-linear-gradient(bottom right, #1EA563, #4CB781);
-  background-image: linear-gradient(to top left, #1EA563, #4CB781);
+  background-image: -webkit-linear-gradient(bottom right, #1EA563, #7D55C7);
+  background-image: -o-linear-gradient(bottom right, #1EA563, #7D55C7);
+  background-image: linear-gradient(top left, #1EA563, #7D55C7);
   position: relative;
 }
 
@@ -1107,6 +1115,10 @@ button:focus {
   background: #f6fbfd;
 }
 
+#app-features-lessor {
+  background: #3b5998;
+}
+
 #app-features .content-left {
   position: relative;
 }
@@ -1148,7 +1160,65 @@ button:focus {
   transition: all 0.2s linear;
 }
 
+#app-features .box-item .icon-lessee {
+  text-align: center;
+  margin: 0 15px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  text-align: center;
+  position: relative;
+  background-image: -moz-linear-gradient(0deg, rgb(30, 156, 165) 0%, #4CB781 100%);
+  background-image: -webkit-linear-gradient(0deg, rgb(30, 156, 165) 0%, #4CB781 100%);
+  background-image: -ms-linear-gradient(0deg, rgb(30, 156, 165) 0%, #4CB781 100%);
+  z-index: 1;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#app-features .box-item .icon-lessor {
+  text-align: center;
+  margin: 0 15px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  text-align: center;
+  position: relative;
+  background-image: -moz-linear-gradient(0deg, #1EA563 0%, #7D55C7 100%);
+  background-image: -webkit-linear-gradient(0deg, #1EA563 0%, #7D55C7 100%);
+  background-image: -ms-linear-gradient(0deg, #1EA563 0%, #7D55C7 100%);
+  z-index: 1;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
 #app-features .box-item .icon i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 60px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#app-features .box-item .icon-lessor i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 60px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#app-features .box-item .icon-lessee i {
   color: #fff;
   font-size: 24px;
   line-height: 60px;
