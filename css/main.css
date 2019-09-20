@@ -1188,9 +1188,9 @@ button:focus {
   border-radius: 50px;
   text-align: center;
   position: relative;
-  background-image: -moz-linear-gradient(0deg, #1EA563 0%, #7D55C7 100%);
-  background-image: -webkit-linear-gradient(0deg, #1EA563 0%, #7D55C7 100%);
-  background-image: -ms-linear-gradient(0deg, #1EA563 0%, #7D55C7 100%);
+  background-image: -moz-linear-gradient(0deg, #1EA563 0%, rgb(30, 156, 165) 100%);
+  background-image: -webkit-linear-gradient(0deg, #1EA563 0%, rgb(30, 156, 165) 100%);
+  background-image: -ms-linear-gradient(0deg, #1EA563 0%, rgb(30, 156, 165) 100%);
   z-index: 1;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -1444,6 +1444,7 @@ button:focus {
 .testimonial-item .author .img-thumb img {
   border-radius: 50%;
   width: 75%;
+  height: 75%;
 }
 
 .testimonial-item .content-inner {
